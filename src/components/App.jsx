@@ -6,8 +6,6 @@ import VideoDetail from './VideoDetail';
 import youtube from '../api/youtube';
 import vexuzImg from '../vexuz.jpg';
 
-const KEY = 'AIzaSyCly-awnyjW-8EDATzymxNe-hwB3SpowQM';
-
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
@@ -21,7 +19,7 @@ class App extends React.Component {
         q: term,
         part: 'snippet',
         maxResults: 5,
-        key: KEY,
+        key: process.env.REACT_APP_KEY,
       },
     });
 

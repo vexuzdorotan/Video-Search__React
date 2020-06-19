@@ -14,6 +14,11 @@ To start server:
 
 `npm start`
 
+Adding Environment Variables:
+
+- Create `.env.local` file in root directory
+- Add your own YouTube API Key: `REACT_APP_KEY={YOUR_API_KEY}`
+
 To visit app:
 
 `localhost:3000`
