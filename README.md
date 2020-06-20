@@ -1,6 +1,6 @@
 ## Video Search | ReactJS
 
-A small application to search 5 videos from YouTube API, built with Material UI and React.
+A small application to search 5 videos from YouTube API, built with Semantic UI and React.
 
 ## Installation and Setup Instructions
 
@@ -22,7 +22,3 @@ Adding Environment Variables:
 To visit app:
 
 `localhost:3000`
-
-## Reflection
-
-I created this small app to practice React.
